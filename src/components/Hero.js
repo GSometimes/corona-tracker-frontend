@@ -2,8 +2,12 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen flex items-center justify-center">
-      <h1 className="font-mono">This is the Hero Section</h1>
+    <div className="w-full h-screen flex flex-col items-center justify-center font-mono font-bold">
+      <h1 className="text-7xl text-gray-700 m-5">Coronavirus Tracker</h1>
+      <p className="text-base text-gray-700">
+        This application lists the current number of cases reported across the
+        globe.
+      </p>
     </div>
   );
 };
