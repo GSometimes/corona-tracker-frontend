@@ -8,6 +8,7 @@ const Hero = () => {
         This application lists the current number of cases reported across the
         globe.
       </p>
+      <img src="https://img.icons8.com/ios/100/000000/long-arrow-down.png" alt=""/>
     </div>
   );
 };
