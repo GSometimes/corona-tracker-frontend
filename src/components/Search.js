@@ -26,7 +26,7 @@ const Search = ({ data, setFilteredData }) => {
       <div class="relative">
         <input
           type="text"
-          class="font-mono h-14 w-96 pr-8 pl-5 rounded px-4 sm:px-6 lg:px-8 placeholder-yellow-light bg-gray-light text-yellow-light"
+          class="font-mono h-14 w-96 pr-8 pl-5 rounded px-4 sm:px-6 lg:px-8 placeholder-yellow-light bg-blue-dark text-yellow-light"
           value={dataEntry}
           placeholder="Search Countries..."
           onChange={handleFilter}

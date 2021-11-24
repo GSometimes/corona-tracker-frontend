@@ -10,7 +10,7 @@ const Landing = () => {
 
 
     const getCoronavirusData = async () => {
-      const response = await fetch("http://localhost:8080/data");
+      const response = await fetch("https://corona-tracker-backend-java.herokuapp.com/data");
       const data = await response.json();
       setCoronavirusData(data);
       setFilteredData(data)
@@ -22,7 +22,7 @@ const Landing = () => {
 
     return (
         <div>
-            <Hero />
+            <Hero data={coronavirusData}/>
             <Search data={coronavirusData} setFilteredData={setFilteredData}/>
             <Data data={filteredData}/>
         </div>
