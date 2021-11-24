@@ -3,6 +3,8 @@ import { useState } from "react";
 const Search = ({ data, setFilteredData }) => {
   const [dataEntry, setDataEntry] = useState("");
 
+  console.log(data)
+
   const handleFilter = (event) => {
     const searchWord = event.target.value;
     setDataEntry(searchWord);
@@ -26,13 +28,13 @@ const Search = ({ data, setFilteredData }) => {
       <div class="relative">
         <input
           type="text"
-          class="font-mono h-14 w-96 pr-8 pl-5 rounded px-4 sm:px-6 lg:px-8 placeholder-yellow-light bg-blue-dark text-yellow-light"
+          class="font-mono h-12 w-80 md:h-14 md:w-96 pr-8 pl-5 rounded px-4 sm:px-6 lg:px-8 placeholder-blue-dark bg-white-light text-blue-dark text-sm md:text-base lg:text-lg"
           value={dataEntry}
           placeholder="Search Countries..."
           onChange={handleFilter}
         />
-        <div class="absolute top-4 right-3">
-          {dataEntry.length === 0 ? <i class="fa fa-search text-yellow-light"></i> : <i class="fas fa-times text-yellow-light cursor-pointer"
+        <div class="absolute top-3 right-4">
+          {dataEntry.length === 0 ? <i class="fa fa-search text-blue-dark text-sm md:text-base lg:text-lg"></i> : <i class="fas fa-times text-blue-dark cursor-pointer text-sm md:text-base lg:text-lg"
           onClick={clearInput}></i>}
         </div>
       </div>
