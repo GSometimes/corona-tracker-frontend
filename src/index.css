@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.background-image {
+    background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1637909316/Spring-React-Coronavirus/fusion-medical-animation-rnr8D3FNUNY-unsplash_1_jz7ewq.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
