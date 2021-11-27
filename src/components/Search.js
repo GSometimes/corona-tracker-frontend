@@ -3,7 +3,7 @@ import { useState } from "react";
 const Search = ({ data, setFilteredData }) => {
   const [dataEntry, setDataEntry] = useState("");
 
-  console.log(data)
+  console.log(data);
 
   const handleFilter = (event) => {
     const searchWord = event.target.value;
@@ -34,8 +34,14 @@ const Search = ({ data, setFilteredData }) => {
           onChange={handleFilter}
         />
         <div class="absolute top-3 right-4">
-          {dataEntry.length === 0 ? <i class="fa fa-search text-blue-dark text-sm md:text-base lg:text-lg"></i> : <i class="fas fa-times text-blue-dark cursor-pointer text-sm md:text-base lg:text-lg"
-          onClick={clearInput}></i>}
+          {dataEntry.length === 0 ? (
+            <i class="fa fa-search text-blue-dark text-sm md:text-base lg:text-lg"></i>
+          ) : (
+            <i
+              class="fas fa-times text-blue-dark cursor-pointer text-sm md:text-base lg:text-lg"
+              onClick={clearInput}
+            ></i>
+          )}
         </div>
       </div>
     </div>

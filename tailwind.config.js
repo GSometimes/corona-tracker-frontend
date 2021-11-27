@@ -4,20 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        white: {
-          light: "#F5F5F5",
-        },
-        yellow: {
-          light: "#FDE68A",
-        },
-        blue: {
-          dark: "#334155",
-        },
-        gray: {
-          light: "#94A3B9",
-        },
-      },
-    },
+        brand: "#EF4444",
+        dark: "#1E293B",
+        mid: "#CBD5E1",
+        light: "#F5F5F5"
+      },    },
   },
   variants: {
     extend: {},
