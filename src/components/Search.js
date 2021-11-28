@@ -34,7 +34,7 @@ const Search = ({ data, setFilteredData }) => {
           <input
             type="text"
             aria-label="search"
-            class="font-mono h-12 w-60 md:h-14 md:w-96 pr-8 pl-5 px-4 sm:px-6 lg:px-8 placeholder-black text-sm md:text-base lg:text-lg bg-light rounded-lg"
+            class="font-mono h-12 w-56 md:h-14 md:w-96 pr-8 pl-5 px-4 sm:px-6 lg:px-8 placeholder-black text-sm md:text-base lg:text-lg bg-light rounded-lg"
             value={dataEntry}
             placeholder="Search"
             onChange={handleFilter}
