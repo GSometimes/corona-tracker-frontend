@@ -1,8 +1,9 @@
 import React from "react";
+import Loader from "./Loader";
 
 const Data = ({ data }) => {
   return data.length === 0 ? (
-    <h1 className="text-center text-gray-700">Loading...</h1>
+    <Loader />
   ) : (
     <div
       id="search"
