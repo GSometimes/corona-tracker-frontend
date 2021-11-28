@@ -22,7 +22,8 @@ const Landing = () => {
 
     return (
         <div>
-            <Hero data={coronavirusData} setFilteredData={setFilteredData}/>
+            <Hero />
+            <Search data={coronavirusData} setFilteredData={setFilteredData}/>
             <Data data={filteredData}/>
         </div>
     )
