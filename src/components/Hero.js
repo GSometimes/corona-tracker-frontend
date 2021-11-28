@@ -9,7 +9,7 @@ const Hero = () => {
         <div className=" w-full background-image flex justify-center items-center font-bold">
           <div class="container border-4 border-light rounded-lg mx-auto w-4/5 relative z-10 flex items-center py-16 px-16 my-24 md:my-32 bg-black bg-opacity-50">
             <div class="w-full flex flex-col items-center justify-between relative z-10">
-              <p class="flex flex-col items-center font-extrabold font-mono text-center text-5xl md:text-6xl lg:text-8xl text-brand">
+              <p class="flex flex-col items-center font-extrabold font-mono text-center text-4xl md:text-6xl lg:text-8xl text-brand px-2">
                 Coronavirus Tracker
               </p>
               <p class="flex flex-col max-w-2xl items-center font-bold font-mono text-sm md:text-base lg:text-lg mt-10 text-light">
