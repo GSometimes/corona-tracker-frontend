@@ -15,7 +15,7 @@ const Hero = () => {
               <p class="flex flex-col max-w-2xl items-center font-bold font-mono text-sm md:text-base lg:text-lg mt-10 text-light">
                 This application tracks the current number of cases reported
                 across the globe since the first case was reported in December
-                2019.
+                2019 and is updated every 24 hours.
               </p>
               <p class="block text-brand py-3 px-4 text-sm md:text-base lg:text-lg font-mono font-bold uppercase mt-10">
                 Scroll to Search
